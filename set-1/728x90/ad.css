@@ -9,6 +9,7 @@ body {
   width: 728px;
   height: 90px;
   position: relative;
+  overflow: hidden;
 }
 .adContent {
   border: 1px solid #000000;
@@ -159,7 +160,7 @@ a {
   font-weight: bold;
 }
 .isiLogo {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   margin-left: 110px;
   width: 45px;
 }
@@ -178,8 +179,8 @@ a {
   top: 0;
   border-radius: 5px !important;
 }
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .isiLogo {
     margin-bottom: 100px;
   }
-}
+} */
