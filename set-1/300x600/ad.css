@@ -163,7 +163,6 @@ a {
   font-weight: bold;
 }
 .isiLogo {
-  /* margin-bottom: 20px; */
   margin-left: 100px;
   width: 80px;
 }
@@ -182,8 +181,3 @@ a {
   top: 0;
   border-radius: 5px !important;
 }
-/* @media (max-width: 600px) {
-  .isiLogo {
-    margin-bottom: 100px;
-  }
-} */
