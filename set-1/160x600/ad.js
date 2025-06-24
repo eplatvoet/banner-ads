@@ -18,8 +18,8 @@ $(document).ready(function () {
   });
   addListeners();
 });
+
 function init() {
-  // animateScene1();
   window.setTimeout(autoScroll, 5000);
 }
 
@@ -57,6 +57,7 @@ function addListeners() {
     scroller.addEventListener("click", stopAutoScroll);
   }
 }
+
 function stopAutoScroll(event) {
   if (ALLOW_AUTO_SCROLL) {
     var currentScrollPosition = getTranslateY(scrollerContent);
@@ -69,6 +70,7 @@ function stopAutoScroll(event) {
   }
   ALLOW_AUTO_SCROLL = false;
 }
+
 function autoScroll() {
   if (ALLOW_AUTO_SCROLL == false) {
     return false;
