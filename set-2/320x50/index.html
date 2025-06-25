@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>320x50</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta data-template-name="320x50">
+    <meta name="ad.size" content="width=320,height=50">
+
+    <link rel="stylesheet" type="text/css" href="ad.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bowser/1.9.4/bowser.min.js"></script>
+
+    <script src="iscroll.js"></script>
+    <script>
+        var overAllClickTag = "https://www.google.com";
+        var clickTag2       = "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf";
+        var clickTag3       = "https://www.fda.gov/";
+    </script>
+</head>
+<body>
+    <div class="ad-wrapper">
+        <div class="adContent">
+            <div class="topSection" id="topSection">
+                <a href="javascript:window.open(window.overAllClickTag)">
+                    <div class="screen1 screen">
+                        <h1>
+                            Check out NAME_OF_MED<sup>&reg;</sup>
+                        </h1>
+                        <p>
+                            Scene 1 copy continued
+                        </p>
+                    </div>
+                    <div class="screen screen2">
+                        <p>Scene 2 copy.</p>
+                    </div>
+                    <div class="screen screen3">
+                        <p>Scene 3 copy.<br>This is where the ISI <br>begins to autoScroll.</p>
+                    </div>
+                    <img src="./assets/therapy.png" alt='Therapy icon' class="icon icon1">
+                    <img src="./assets/healthcare.png" alt='Healthcare icon' class="icon icon2">
+                    <img src="./assets/medical-team.png" alt='Medical professionals icon' class="icon icon3">
+                    <img src="./assets/logo.png" alt='BRAND_Logo' class="topLogo">
+                </a>
+            </div>
+            <div class="isi-section" id="isi-wrapper">
+                <div id="isiContainer">
+                    <div class="isiFixedHeader">
+                        <div class="isiBorder">
+                            <p><a href="javascript:window.open(window.clickTag2)" id="piLink" class="link">Prescribing Information</a> | <a href="javascript:window.open(window.clickTag3)" id="medLink" class="link">Medication Guide</a></p>
+                        </div>
+                    </div>
+                    <div id="scrollerContainer">
+                        <h2>IMPORTANT SAFETY INFORMATION</h2>
+                        <div id="scrollerMask">
+                            <div id="scrollerContent">
+                                <p class="navyHeadline">CONTRAINDICATIONS</p>
+                                <p>NAME_OF_MED<sup>&reg;</sup> is contraindicated in patients with a Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis sunt ad deserunt quisquam adipisci quaerat voluptatum facilis libe.</p>
+                                <p class="navyHeadline">WARNINGS AND PRECAUTIONS</p>
+                                <p>
+                                    <span class="navyHeadline">Reactions</span><br/>
+                                    Serious reactions, have been reported with postmarket use of NAME_OF_MED<sup>&reg;</sup>. Some cases required hospitalization. If a serious  reaction occurs, discontinue NAME_OF_MED<sup>&reg;</sup> and initiate appropriate therapy.
+                                </p>
+                                <p>
+                                    <span class="navyHeadline">Infections</span><br/>
+                                    NAME_OF_MED<sup>&reg;</sup> may increase the risk of infection. Treatment with NAME_OF_MED<sup>&reg;</sup> should not be initiated in patients with a clinically important active infection until the infection resolves or is adequately treated.
+                                </p>
+                                <p>
+                                    <span class="navyHeadline">Immunizations</span><br/>
+                                    Prior to initiating NAME_OF_MED<sup>&reg;</sup>, complete all age-appropriate vaccinations according to current immunization guidelines. Avoid use of live vaccines in patients treated with NAME_OF_MED<sup>&reg;</sup>.
+                                </p>
+                                <p class="navyHeadline">
+                                    ADVERSE REACTIONS
+                                </p>
+                                <p>
+                                    Most common adverse reactions associated with NAME_OF_MED<sup>&reg;</sup> include: Lorem ipsum, dolor sit amet consectetur, adipisicing elit Quaerat reprehenderit iste, mollitia voluptas accusantium excepturi odio, ipsum nemo molestiae dolorem maxime quae dolores modi tempore, perferendis laborum, officiis aliquid, facilis.
+                                </p>
+                                <p>
+                                    <strong>Please read the full <a href="javascript:window.open(window.clickTag2)" id="piLink" class="link">Prescribing Information</a> and <a href="javascript:window.open(window.clickTag3)" id="medGuide" class="link">Medication Guide</a> for NAME_OF_MED<sup>&reg;</sup>. Provide the <a href="javascript:window.open(window.clickTag3)" id="medGuide2" class="link">Medication Guide</a> to your patients and encourage discussion.</strong>
+                                </p>
+                                <p class="navyHeadline">
+                                    INDICATIONS
+                                </p>
+                                <p>
+                                    NAME_OF_MED<sup>&reg;</sup> is indicated for Lorem, ipsum dolor sit amet consectetur adipisicing elit Id praesentium, cum modi dolor quisquam iure qui ex suscipit. Quidem sequi temporibus excepturi.
+                                </p>
+                                <p class="mb-20 small">© COMPANY_NAME and its affiliates 2025 05/25</p>
+                                <img src="./assets/isi-logo.png" alt="COMPANY_NAME Logo" class="isiLogo">     
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="ad.js"></script>
+</body>
+</html>
