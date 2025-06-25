@@ -21,7 +21,7 @@ body {
 .topSection {
   background-color: #f499a7;
   position: absolute;
-  top: 0;
+  top: 1px;
   height: 299px;
   width: 298px;
 }

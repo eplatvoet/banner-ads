@@ -1,6 +1,6 @@
 var MASTER_TIMELINE = null;
 var isiSection = null;
-var autoScrollSpeed = 300000;
+var autoScrollSpeed = 121000;
 var autoScrollOffset = 0;
 var ALLOW_AUTO_SCROLL = true;
 
