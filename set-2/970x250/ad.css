@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #dad9d9;
+}
+.ad-wrapper {
+  width: 970px;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+}
+.adContent {
+  border: 1px solid #000000;
+  background-color: #ffffff;
+  width: 968px;
+  height: 248px;
+  font-family: "Nunito", sans-serif;
+}
+.topSection {
+  background-image: linear-gradient(#f499a7, #faced5, #ffffff);
+  position: absolute;
+  top: 1px;
+  height: 248px;
+  width: 668px;
+}
+.icon {
+  width: 150px;
+  height: auto;
+  opacity: 0;
+  position: absolute;
+  right: -110px;
+  top: 48px;
+}
+.topLogo {
+  position: absolute;
+  width: 124px;
+  left: 15px;
+  top: 93px;
+}
+.screen {
+  position: absolute;
+  left: 160px;
+  top: 30px;
+  text-align: left;
+  width: 317px;
+  padding: 0 10px;
+  opacity: 0;
+}
+h1,
+p {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+h1 {
+  color: #520446;
+  font-size: 34px;
+  line-height: 36px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+h1 sup {
+  vertical-align: 8px;
+  font-size: 70%;
+  line-height: 1;
+}
+.screen p {
+  color: #520446;
+  font-size: 20px;
+  line-height: 22px;
+  font-style: normal;
+  font-weight: 400;
+  font-optical-sizing: auto;
+}
+#isi-wrapper {
+  position: absolute;
+  left: 669px;
+  top: 1px;
+  width: 300px;
+}
+.isiFixedHeader {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  background-color: #520446;
+  position: unset;
+  height: 17px;
+  width: 100%;
+}
+.isiFixedHeader p,
+a {
+  color: #fff;
+  font-size: 9px;
+  line-height: 17px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}
+.link {
+  cursor: pointer;
+}
+#scrollerContainer {
+  left: 0px;
+  top: 8px;
+  width: 100%;
+  height: 228px;
+  background-color: #ffffff;
+}
+#scrollerContainer #scrollerMask {
+  height: 213px;
+  width: 100%;
+  z-index: 501;
+  overflow: hidden;
+}
+#scrollerContainer #scrollerContent {
+  padding: 5px 8px 10px 8px;
+}
+#scrollerContainer * {
+  font-family: sans-serif;
+}
+#scrollerContainer h2 {
+  font-size: 14px;
+  line-height: 15px;
+  color: #520446;
+  font-weight: 700;
+  margin: 2px 8px 1px 8px;
+}
+#scrollerContent p,
+#scrollerContent a {
+  font-size: 12px;
+  line-height: 12px;
+  color: #111111;
+  margin-bottom: 5px;
+}
+#scrollerContent p.small {
+  font-size: 9px;
+  line-height: 11x;
+}
+#scrollerContent .mb-20 {
+  margin-bottom: 20px;
+}
+#scrollerContent .navyHeadline {
+  color: #520446;
+  font-weight: 700;
+}
+#scrollerContent sup {
+  vertical-align: 3px;
+  font-size: 66%;
+  line-height: 1;
+}
+#scrollerContent a.link {
+  color: #e92f4b;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.isiLogo {
+  margin-left: 110px;
+  width: 45px;
+}
+#scrollerContainer .iScrollVerticalScrollbar {
+  left: calc(100% - 4px);
+  border-radius: 0;
+  top: 35px !important;
+  width: 2px !important;
+  background-color: #dad9d9;
+}
+#scrollerContainer .iScrollIndicator {
+  background-color: #520446 !important;
+  height: 12px !important;
+  width: 2px !important;
+  border: none !important;
+  top: 0;
+  border-radius: 5px !important;
+}
