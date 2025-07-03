@@ -1,6 +1,4 @@
 var MASTER_TIMELINE = null;
-var CURRENT_PLAY_COUNT = 1;
-var TOTAL_PLAY_COUNT = 3;
 
 $(document).ready(function () {
   init();
