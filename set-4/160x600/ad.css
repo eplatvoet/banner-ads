@@ -54,6 +54,7 @@ a{
   position: absolute;
   bottom: 10px;
   left: 5px;
+  border-radius: 4px;
 }
 .cta p{
   font-size: 18px;
