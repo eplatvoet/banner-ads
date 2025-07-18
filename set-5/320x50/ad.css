@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #dad9d9;
+  margin: 1500px auto;
+}
+.in-iframe {
+  margin: 100px auto;
+}
+.ad-wrapper {
+  width: 320px;
+  height: 50px;
+  position: relative;
+  overflow: hidden;
+}
+.adContent {
+  border: 1px solid #000000;
+  background-color: transparent;
+  width: 318px;
+  height: 48px;
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  overflow:hidden;
+}
+.topSection {
+  position: absolute;
+  top: 1px;
+  height: 48px;
+  width: 318px;  
+  overflow: hidden;
+}
+.bg {
+  position: absolute;
+  top: -99px;
+  width: 514px;
+  left: -31px;
+  z-index: -1;
+}
+.logo{
+  width: 55px;
+  position:absolute;
+  top:8px;
+  left:3px;
+}
+.cta{
+  background-color: #000000;
+  border: 1px solid #fbeb57;
+  padding: 3px;
+  width: fit-content;
+  position: absolute;
+  right:3px;
+  bottom:14px;
+  border-radius: 4px;
+  text-align:center;
+}
+.cta p{
+  font-size: 10px;
+  font-weight:700;
+  color: #fbeb57;
+}
