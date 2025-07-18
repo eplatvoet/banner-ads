@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set 5 - All sizes</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <style>
+         body{
+            background-color: #fffcf9;
+        }
+        .content-wrapper{
+            width:100%;
+            max-width: 998px;
+            margin: 0 auto;
+            padding: 25px;
+            background-color: #3d405b;
+        }
+        h1{
+            font-size: 34px;
+            line-height: 38px;
+            font-family: "Bangers", system-ui;
+            font-weight: 400;
+            font-style: normal;
+            margin: 20px 0;
+            color: #e07a5f;
+        }
+        .all-banners-wrap{
+            display:flex;
+            flex-direction:row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .banner-wrap{
+            margin: 10px 0;
+            display:flex;
+            flex-direction: column;
+            border: 2px solid #e07a5f;
+            padding: 20px 10px;
+            position: relative;
+            height: fit-content;
+            background-color:#ffffff;
+        }
+        h2{
+            font-size: 24px;
+            line-height: 28px;
+            font-family: "Bangers", system-ui;
+            font-weight: 400;
+            font-style: normal;
+            color: #f2cc8f;
+            margin: 10px 0;
+        }
+        p.small{
+            font-family: "Roboto", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            font-variation-settings: "wdth" 100;
+            margin: 10px 0;
+            color: #ffffff;
+            font-size: 12px;
+            line-height: 13px;
+        }
+        @media (max-width:768px){
+            .content-wrapper{
+                max-width: 350px;
+                margin: 20px auto;
+            }
+            h1{
+                text-align: center;
+            }
+            .banner-sets{
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="content-wrapper">
+        <h1>Set 5 - All sizes:</h1>
+        <p class="small"><strong>Please note:</strong> <br>&mdash; This page <em>should</em> be viewed on a desktop, as larger banners require an iframe larger than the width of a mobile device.<br>&mdash; Scroll through each iframe to see the parallax effect on each banner.</p>
+        <div class="all-banners-wrap">
+            <div class="banner-wrap">
+                <h2>160x600</h2>
+                <iframe src="./160x600/index.html" style="border:0;height: 600px; width: 160px;overflow-y: scroll;" title="160x600 Banner example"></iframe>
+            </div>
+            <div class="banner-wrap">
+                <h2>300x250</h2>
+                <iframe src="./300x250/index.html" style="border:0;height: 250px; width: 300px;overflow-y: scroll;" title="300x250 Banner example"></iframe>
+            </div>
+            <div class="banner-wrap">
+                <h2>300x600</h2>
+                <iframe src="./300x600/index.html" style="border:0;height: 600px; width: 300px;overflow-y: scroll;" title="300x600 Banner example"></iframe>
+            </div>
+            <div class="banner-wrap">
+                <h2>320x50</h2>
+                <iframe src="./320x50/index.html" style="border:0;height: 50px; width: 320px;overflow-y: scroll;" title="320x50 Banner example"></iframe>
+            </div>
+            <div class="banner-wrap">
+                <h2>728x90</h2>
+                <iframe src="./728x90/index.html" style="border:0;height: 90px; width: 728px;overflow-y: scroll;" title="728x90 Banner example"></iframe>
+            </div>
+            <div class="banner-wrap">
+                <h2>970x250</h2>
+                <iframe src="./970x250/index.html" style="border:0;height: 250px; width: 970px;overflow-y: scroll;" title="970x250 Banner example"></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
